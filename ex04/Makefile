@@ -1,6 +1,6 @@
-NAME = violence
+NAME = losers
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 SRC = main.cpp 
 OBJ = $(SRC:.cpp=.o)
