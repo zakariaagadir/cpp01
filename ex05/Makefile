@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: zmounji <zmounji@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/09/05 22:52:35 by zmounji           #+#    #+#              #
-#    Updated: 2025/09/05 22:52:36 by zmounji          ###   ########.fr        #
+#    Created: 2025/09/05 22:52:10 by zmounji           #+#    #+#              #
+#    Updated: 2025/09/05 22:53:27 by zmounji          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = violence
+NAME = Harl
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 
-SRC = main.cpp Weapon.cpp HumanB.cpp HumanA.cpp
+SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
